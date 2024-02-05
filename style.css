@@ -1,0 +1,133 @@
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique et oui */
+  .container {
+    width: 300px;
+  }
+}
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url("Image/53cf132024332921c95a425377bdcdf7.jpeg");
+  color: grey;
+  text-align: center;
+  margin: 0 auto;
+}
+
+img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+header {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #1d3557;
+  background-color: #FBF9F1;
+}
+
+.card {
+  background-color: rgba(251, 249, 241, 0.5);
+  margin: 48px 68px 48px 68px;
+  box-shadow: 5px 5px 5px grey;
+  padding: 20px;
+  backdrop-filter: blur(2px);
+
+}
+
+#Headear_description {
+  color: #0d4060;
+}
+
+#resume {
+  text-align: justify;
+}
+
+p {
+  color: #0d4060;
+}
+
+button {
+    align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #0d4060 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+
+
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+button:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+#social_media {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+a {
+  color: #457b9d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #213c8f;
+}
+
+i {
+  font-size: 45px;
+}
